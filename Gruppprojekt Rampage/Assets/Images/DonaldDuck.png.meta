@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DonaldDuck_0: 4191986176341798760
+      DonaldDuck_1: -6468396505993215636
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
