@@ -24,15 +24,33 @@ public class Movement : MonoBehaviour
         if(Input.GetKey(KeyCode.A))
         {
             transform.position += Vector3.left * moveSpeed * Time.deltaTime;
-            spriteRenderer.flipX = false;
+            //spriteRenderer.flipX = false;
+            FlipHitbox(true);
         }
 
         else if (Input.GetKey(KeyCode.D))
         {
             transform.position += Vector3.right * moveSpeed * Time.deltaTime;
-            spriteRenderer.flipX = true;
+            //spriteRenderer.flipX = true;
+            FlipHitbox(false);
         }
 
+    }
+    
+    void FlipHitbox(bool flipRight)
+    {
+        Vector3 hitboxScale = transform.localScale;
+
+        if (flipRight)
+        {
+            hitboxScale.x = Mathf.Abs(hitboxScale.x);
+        }
+        else
+        {
+            hitboxScale.x = -Mathf.Abs(hitboxScale.x);
+        }
+
+        transform.localScale = hitboxScale;
     }
 
   
