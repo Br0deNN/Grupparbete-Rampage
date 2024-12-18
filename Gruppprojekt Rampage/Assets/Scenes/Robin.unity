@@ -441,6 +441,7 @@ GameObject:
   - component: {fileID: 866821474}
   - component: {fileID: 866821473}
   - component: {fileID: 866821472}
+  - component: {fileID: 866821479}
   - component: {fileID: 866821477}
   m_Layer: 0
   m_Name: Buildings
