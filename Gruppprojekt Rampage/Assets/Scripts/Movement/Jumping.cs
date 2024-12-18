@@ -41,17 +41,21 @@ public class Jumping : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Ground"))
+        Debug.Log("Touch grass");
+        if (other.CompareTag("Ground"))
         {
+            Debug.Log("Touching grass");
             grounded = true;
         }
     }
-    private void OnCollisionExit2D(Collision2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Ground"))
+        Debug.Log("Collision");
+        if (other.CompareTag("Ground"))
         {
+            Debug.Log("True Collision");
             grounded = false;
         }
     }
