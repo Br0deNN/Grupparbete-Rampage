@@ -357,6 +357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf025302726b2649848019b30f691a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapManager: {fileID: 1549202712}
 --- !u!212 &421511771
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -441,7 +442,6 @@ GameObject:
   - component: {fileID: 866821474}
   - component: {fileID: 866821473}
   - component: {fileID: 866821472}
-  - component: {fileID: 866821479}
   - component: {fileID: 866821477}
   m_Layer: 0
   m_Name: Buildings
@@ -1364,7 +1364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   map: {fileID: 866821476}
-  partDamage: {fileID: 0}
+  partDamage: {fileID: 11400000, guid: 2e0e728bc9cc7094a813a83c0e37a840, type: 2}
 --- !u!4 &1549202713
 Transform:
   m_ObjectHideFlags: 0

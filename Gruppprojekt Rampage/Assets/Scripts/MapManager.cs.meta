@@ -5,7 +5,7 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - map: {instanceID: 0}
-  - partDamage: {fileID: 11400000, guid: 78cea6f3daf2e9e4d86b8237b4f0fbe6, type: 2}
+  - partDamage: {fileID: 11400000, guid: 2e0e728bc9cc7094a813a83c0e37a840, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

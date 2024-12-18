@@ -34,6 +34,7 @@ public class MapManager : MonoBehaviour
 
     public void damageTaken(Vector3Int position)
     {
+        Debug.Log("Sigma");
         map.SetTile(position, partDamage);
     }
 }
